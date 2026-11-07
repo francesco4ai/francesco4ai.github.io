@@ -1,5 +1,148 @@
 {
   "orcid": "0009-0006-3474-8692",
-  "last_change": "2026-11-07T12:29:53+00:00",
-  "works": []
+  "last_change": "2026-11-07T12:49:11+00:00",
+  "works": [
+    {
+      "put_code": 226994063,
+      "title": "A comprehensive survey on continual anomaly detection",
+      "authors": [
+        "Fabrizio Angiulli",
+        "Francesco De Luca",
+        "Fabio Fassetti"
+      ],
+      "venue": "Neurocomputing",
+      "type": "journal-article",
+      "year": 2027,
+      "month": 1,
+      "day": null,
+      "doi": "10.1016/j.neucom.2026.135118",
+      "url": "https://doi.org/10.1016/j.neucom.2026.135118",
+      "ids": {},
+      "bibtex": null,
+      "first_seen": "initial"
+    },
+    {
+      "put_code": 230040773,
+      "title": "ADoCL: Anomaly-Aware Dynamic Concept Maintenance for Reliable Continual Learning",
+      "authors": [
+        "Fabrizio Angiulli",
+        "Francesco De Luca",
+        "Fabio Fassetti"
+      ],
+      "venue": "Similarity Search and Applications",
+      "type": "book-chapter",
+      "year": 2027,
+      "month": null,
+      "day": null,
+      "doi": "10.1007/978-3-032-42224-8_16",
+      "url": "https://doi.org/10.1007/978-3-032-42224-8_16",
+      "ids": {},
+      "bibtex": null,
+      "series": "Lecture Notes in Computer Science",
+      "crossref_type": "book-chapter",
+      "volume": null,
+      "issue": null,
+      "pages": "198-213",
+      "publisher": "Springer Nature Switzerland",
+      "first_seen": "initial"
+    },
+    {
+      "put_code": 230348956,
+      "title": "TiLLMeOut: Time Series Large Language Models-Based Outlier Detection",
+      "authors": [
+        "Fabrizio Angiulli",
+        "Francesco De Luca",
+        "Fabio Fassetti"
+      ],
+      "venue": "Discovery Science",
+      "type": "book-chapter",
+      "year": 2027,
+      "month": null,
+      "day": null,
+      "doi": "10.1007/978-3-032-41086-3_17",
+      "url": "https://doi.org/10.1007/978-3-032-41086-3_17",
+      "ids": {},
+      "bibtex": null,
+      "series": "Lecture Notes in Computer Science",
+      "crossref_type": "book-chapter",
+      "volume": null,
+      "issue": null,
+      "pages": "249-264",
+      "publisher": "Springer Nature Switzerland",
+      "first_seen": "initial"
+    },
+    {
+      "put_code": 232032277,
+      "title": "Attention to those tokens! Ensemble Clustering can explain Attention-based Text Classifiers",
+      "authors": [
+        "Fabrizio Angiulli",
+        "Francesco De Luca",
+        "Fabio Fassetti"
+      ],
+      "venue": "Proceedings of the 35th ACM International Conference on Information and Knowledge Management",
+      "type": "conference-paper",
+      "year": 2026,
+      "month": 11,
+      "day": 7,
+      "doi": "10.1145/3799682.3839930",
+      "url": "https://doi.org/10.1145/3799682.3839930",
+      "ids": {},
+      "bibtex": null,
+      "crossref_type": "proceedings-article",
+      "volume": null,
+      "issue": null,
+      "pages": "6860-6865",
+      "publisher": "ACM",
+      "first_seen": "initial"
+    },
+    {
+      "put_code": 231377520,
+      "title": "LLiMe: enhancing text classifier explanations with large language models",
+      "authors": [
+        "Angiulli, F.",
+        "De Luca, F.",
+        "Fassetti, F.",
+        "Nisticò, S."
+      ],
+      "venue": "Machine Learning",
+      "type": "journal-article",
+      "year": 2025,
+      "month": null,
+      "day": null,
+      "doi": "10.1007/s10994-025-06920-z",
+      "url": "https://www.scopus.com/inward/record.url?eid=2-s2.0-105021401361&partnerID=MN8TOARS",
+      "ids": {
+        "eid": "2-s2.0-105021401361",
+        "issn": "08856125 15730565"
+      },
+      "bibtex": "@article{De Luca2025,title = {LLiMe: enhancing text classifier explanations with large language models},journal = {Machine Learning},year = {2025},volume = {114},number = {12},author = {Angiulli, F. and De Luca, F. and Fassetti, F. and Nistic{\\`o}, S.}}",
+      "first_seen": "initial"
+    },
+    {
+      "put_code": 176720859,
+      "title": "Large Language Models-Based Local Explanations of Text Classifiers",
+      "authors": [
+        "Fabrizio Angiulli",
+        "Francesco De Luca",
+        "Fabio Fassetti",
+        "Simona Nisticó"
+      ],
+      "venue": "Discovery Science",
+      "type": "book-chapter",
+      "year": 2025,
+      "month": null,
+      "day": null,
+      "doi": "10.1007/978-3-031-78977-9_2",
+      "url": "https://doi.org/10.1007/978-3-031-78977-9_2",
+      "ids": {},
+      "bibtex": null,
+      "series": "Lecture Notes in Computer Science",
+      "crossref_type": "book-chapter",
+      "volume": null,
+      "issue": null,
+      "pages": "19-35",
+      "publisher": "Springer Nature Switzerland",
+      "first_seen": "initial"
+    }
+  ]
 }
