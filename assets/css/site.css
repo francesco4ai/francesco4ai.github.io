@@ -484,31 +484,6 @@ body::before {
   font-size: 0.875rem;
 }
 .pub-links a { color: var(--signal); }
-.pub-cite {
-  font: inherit;
-  color: var(--signal);
-  background: none;
-  border: 0;
-  padding: 0;
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
-}
-.pub-cite:hover { color: var(--ink); text-decoration-color: var(--anomaly); }
-.pub-cite.is-done { color: var(--ink); text-decoration: none; }
-
-.pub-bib {
-  margin: 0.75rem 0 0;
-  padding: 0.85rem 1rem;
-  overflow-x: auto;
-  background: var(--paper-2);
-  border-radius: 6px;
-  font: 0.8125rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  color: var(--ink);
-  white-space: pre;
-}
-
 .pubs-note {
   margin-top: 1.5rem;
   padding-top: 1rem;
@@ -574,7 +549,7 @@ body::before {
 }
 
 @media print {
-  .topbar, .series, .pub-filter, .pub-cite, .theme, .skip { display: none !important; }
+  .topbar, .series, .pub-filter, .theme, .skip { display: none !important; }
   body { background: #fff; color: #000; }
   .block { break-inside: avoid-page; }
 }

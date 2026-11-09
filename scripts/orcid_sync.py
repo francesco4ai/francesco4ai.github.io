@@ -550,17 +550,14 @@ def render_pub(p: dict, today: dt.date) -> str:
     if p.get("award"):
         lines.append(f'  <p class="pub-award">{esc(p["award"])}</p>')
     links = []
-    if p.get("doi"):
-        links.append(f'<a href="https://doi.org/{esc(p["doi"])}">DOI</a>')
-    elif p.get("url"):
-        links.append(f'<a href="{esc(p["url"])}">Paper</a>')
+    if p.get("link"):  # doi.org resolves to the publisher's page
+        links.append(f'<a href="{esc(p["link"])}">Paper</a>')
     for key, label in (("pdf", "PDF"), ("code", "Code"), ("slides", "Slides"),
                        ("poster", "Poster"), ("video", "Video")):
         if p.get(key):
             links.append(f'<a href="{esc(p[key])}">{label}</a>')
-    links.append('<button type="button" class="pub-cite" hidden>Copy BibTeX</button>')
-    lines.append(f'  <p class="pub-links">{" ".join(links)}</p>')
-    lines.append(f'  <pre class="pub-bib" hidden>{esc(p["bibtex"])}</pre>')
+    if links:
+        lines.append(f'  <p class="pub-links">{" ".join(links)}</p>')
     lines.append("</li>")
     return "\n".join(lines)
 

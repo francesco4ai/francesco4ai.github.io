@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <!-- Sfondo quadrato con angoli arrotondati -->
+  <rect width="100" height="100" rx="20" fill="#4F46E5" />
+  
+  <!-- Testo "F4AI" centrato -->
+  <text x="50" y="50" fill="#FFFFFF" font-family="system-ui, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="32" font-weight="700" text-anchor="middle" dominant-baseline="central" letter-spacing="0.5">F4AI</text>
+</svg>

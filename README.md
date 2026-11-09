@@ -7,7 +7,7 @@ Sito personale, servito da GitHub Pages: HTML, CSS e JavaScript statici, senza b
 | Percorso | Cosa contiene |
 | --- | --- |
 | `index.html` | La pagina. Il blocco tra `<!-- ORCID:BEGIN -->` e `<!-- ORCID:END -->` è generato: non modificarlo a mano. |
-| `assets/css/site.css`, `assets/js/site.js` | Stile (tema chiaro/scuro) e piccoli comportamenti: filtro delle pubblicazioni, copia del BibTeX, cambio tema. |
+| `assets/css/site.css`, `assets/js/site.js` | Stile (tema chiaro/scuro) e piccoli comportamenti: filtro delle pubblicazioni e cambio tema. |
 | `data/publications.extra.json` | **L’unico file delle pubblicazioni da modificare a mano** (vedi sotto). |
 | `data/orcid.json` | Cache dei lavori letti da ORCID (generato). |
 | `data/publications.json`, `publications.bib` | Elenco finale in JSON e in BibTeX (generati). |

@@ -5,6 +5,7 @@
     {
       "id": "adocl",
       "title": "ADoCL: Anomaly-Aware Dynamic Concept Maintenance for Reliable Continual Learning",
+      "doi": "10.1007/978-3-032-42224-8_16",
       "code": "https://github.com/AIDALab-DIMES/ADoCL",
       "award": "Top 5 best papers at SISAP 2026, invited to the Information Systems special issue",
       "short": "SISAP 2026",
@@ -16,6 +17,7 @@
       ],
       "venue": "Similarity Search and Applications",
       "series": "Lecture Notes in Computer Science",
+      "volume": "16796",
       "pages": "198–213",
       "publisher": "Springer Nature Switzerland",
       "year": 2027,
@@ -23,13 +25,13 @@
       "self": [
         1
       ],
-      "doi": null,
-      "link": null,
-      "bibtex": "@inproceedings{angiulli2027adocl,\n  title = {{ADoCL: Anomaly-Aware Dynamic Concept Maintenance for Reliable Continual Learning}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F.},\n  booktitle = {Similarity Search and Applications},\n  series = {Lecture Notes in Computer Science},\n  pages = {198--213},\n  year = {2027},\n  publisher = {Springer Nature Switzerland}\n}"
+      "link": "https://doi.org/10.1007/978-3-032-42224-8_16",
+      "bibtex": "@inproceedings{angiulli2027adocl,\n  title = {{ADoCL: Anomaly-Aware Dynamic Concept Maintenance for Reliable Continual Learning}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F.},\n  booktitle = {Similarity Search and Applications},\n  series = {Lecture Notes in Computer Science},\n  volume = {16796},\n  pages = {198--213},\n  year = {2027},\n  publisher = {Springer Nature Switzerland},\n  doi = {10.1007/978-3-032-42224-8_16}\n}"
     },
     {
       "id": "tillmeout",
       "title": "TiLLMeOut: Time Series Large Language Models-Based Outlier Detection",
+      "doi": "10.1007/978-3-032-41086-3_17",
       "code": "https://github.com/AIDALab-DIMES/TiLLMeOut",
       "short": "DS 2026",
       "kind": "conference",
@@ -40,6 +42,7 @@
       ],
       "venue": "Discovery Science",
       "series": "Lecture Notes in Computer Science",
+      "volume": "17130",
       "pages": "249–264",
       "publisher": "Springer Nature Switzerland",
       "year": 2027,
@@ -47,13 +50,13 @@
       "self": [
         1
       ],
-      "doi": null,
-      "link": null,
-      "bibtex": "@inproceedings{angiulli2027tillmeout,\n  title = {{TiLLMeOut: Time Series Large Language Models-Based Outlier Detection}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F.},\n  booktitle = {Discovery Science},\n  series = {Lecture Notes in Computer Science},\n  pages = {249--264},\n  year = {2027},\n  publisher = {Springer Nature Switzerland}\n}"
+      "link": "https://doi.org/10.1007/978-3-032-41086-3_17",
+      "bibtex": "@inproceedings{angiulli2027tillmeout,\n  title = {{TiLLMeOut: Time Series Large Language Models-Based Outlier Detection}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F.},\n  booktitle = {Discovery Science},\n  series = {Lecture Notes in Computer Science},\n  volume = {17130},\n  pages = {249--264},\n  year = {2027},\n  publisher = {Springer Nature Switzerland},\n  doi = {10.1007/978-3-032-41086-3_17}\n}"
     },
     {
       "id": "cad-survey",
       "title": "A comprehensive survey on continual anomaly detection",
+      "doi": "10.1016/j.neucom.2026.135118",
       "kind": "journal",
       "authors": [
         "F. Angiulli",
@@ -63,7 +66,6 @@
       "venue": "Neurocomputing",
       "volume": "707",
       "pages": "135118",
-      "doi": "10.1016/j.neucom.2026.135118",
       "year": 2027,
       "source": "manual",
       "self": [
@@ -75,6 +77,7 @@
     {
       "id": "ecam",
       "title": "Attention to those tokens! Ensemble Clustering can explain Attention-based Text Classifiers",
+      "doi": "10.1145/3799682.3839930",
       "code": "https://github.com/AIDALab-DIMES/ECAM",
       "short": "CIKM 2026",
       "kind": "conference",
@@ -90,13 +93,13 @@
       "self": [
         1
       ],
-      "doi": null,
-      "link": null,
-      "bibtex": "@inproceedings{angiulli2026attention,\n  title = {{Attention to those tokens! Ensemble Clustering can explain Attention-based Text Classifiers}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F.},\n  booktitle = {ACM International Conference on Information and Knowledge Management},\n  year = {2026},\n  publisher = {ACM}\n}"
+      "link": "https://doi.org/10.1145/3799682.3839930",
+      "bibtex": "@inproceedings{angiulli2026attention,\n  title = {{Attention to those tokens! Ensemble Clustering can explain Attention-based Text Classifiers}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F.},\n  booktitle = {ACM International Conference on Information and Knowledge Management},\n  year = {2026},\n  publisher = {ACM},\n  doi = {10.1145/3799682.3839930}\n}"
     },
     {
       "id": "llime",
       "title": "LLiMe: enhancing text classifier explanations with large language models",
+      "doi": "10.1007/s10994-025-06920-z",
       "code": "https://github.com/AIDALab-DIMES/LLiMe",
       "kind": "journal",
       "authors": [
@@ -114,13 +117,13 @@
       "self": [
         1
       ],
-      "doi": null,
-      "link": null,
-      "bibtex": "@article{angiulli2025llime,\n  title = {{LLiMe: enhancing text classifier explanations with large language models}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F. and Nisticò, S.},\n  journal = {Machine Learning},\n  volume = {114},\n  number = {12},\n  pages = {271},\n  year = {2025}\n}"
+      "link": "https://doi.org/10.1007/s10994-025-06920-z",
+      "bibtex": "@article{angiulli2025llime,\n  title = {{LLiMe: enhancing text classifier explanations with large language models}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F. and Nisticò, S.},\n  journal = {Machine Learning},\n  volume = {114},\n  number = {12},\n  pages = {271},\n  year = {2025},\n  doi = {10.1007/s10994-025-06920-z}\n}"
     },
     {
       "id": "llm-local-explanations",
       "title": "Large Language Models-Based Local Explanations of Text Classifiers",
+      "doi": "10.1007/978-3-031-78977-9_2",
       "code": "https://github.com/AIDALab-DIMES/LLiMe",
       "short": "DS 2024",
       "kind": "conference",
@@ -139,9 +142,8 @@
       "self": [
         1
       ],
-      "doi": null,
-      "link": null,
-      "bibtex": "@inproceedings{angiulli2025large,\n  title = {{Large Language Models-Based Local Explanations of Text Classifiers}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F. and Nisticò, S.},\n  booktitle = {Discovery Science},\n  series = {Lecture Notes in Computer Science},\n  pages = {19--35},\n  year = {2025},\n  publisher = {Springer Nature Switzerland}\n}"
+      "link": "https://doi.org/10.1007/978-3-031-78977-9_2",
+      "bibtex": "@inproceedings{angiulli2025large,\n  title = {{Large Language Models-Based Local Explanations of Text Classifiers}},\n  author = {Angiulli, F. and De Luca, F. and Fassetti, F. and Nisticò, S.},\n  booktitle = {Discovery Science},\n  series = {Lecture Notes in Computer Science},\n  pages = {19--35},\n  year = {2025},\n  publisher = {Springer Nature Switzerland},\n  doi = {10.1007/978-3-031-78977-9_2}\n}"
     }
   ]
 }

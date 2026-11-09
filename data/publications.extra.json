@@ -1,19 +1,27 @@
 {
   "orcid": "0009-0006-3474-8692",
   "contact_email": "fradeluca18@gmail.com",
-  "self_names": ["Francesco De Luca", "F. De Luca"],
-
+  "self_names": [
+    "Francesco De Luca",
+    "F. De Luca"
+  ],
   "papers": [
     {
       "id": "adocl",
       "title": "ADoCL: Anomaly-Aware Dynamic Concept Maintenance for Reliable Continual Learning",
+      "doi": "10.1007/978-3-032-42224-8_16",
       "code": "https://github.com/AIDALab-DIMES/ADoCL",
       "award": "Top 5 best papers at SISAP 2026, invited to the Information Systems special issue",
       "short": "SISAP 2026",
       "kind": "conference",
-      "authors": ["F. Angiulli", "F. De Luca", "F. Fassetti"],
+      "authors": [
+        "F. Angiulli",
+        "F. De Luca",
+        "F. Fassetti"
+      ],
       "venue": "Similarity Search and Applications",
       "series": "Lecture Notes in Computer Science",
+      "volume": "16796",
       "pages": "198–213",
       "publisher": "Springer Nature Switzerland",
       "year": 2027
@@ -21,12 +29,18 @@
     {
       "id": "tillmeout",
       "title": "TiLLMeOut: Time Series Large Language Models-Based Outlier Detection",
+      "doi": "10.1007/978-3-032-41086-3_17",
       "code": "https://github.com/AIDALab-DIMES/TiLLMeOut",
       "short": "DS 2026",
       "kind": "conference",
-      "authors": ["F. Angiulli", "F. De Luca", "F. Fassetti"],
+      "authors": [
+        "F. Angiulli",
+        "F. De Luca",
+        "F. Fassetti"
+      ],
       "venue": "Discovery Science",
       "series": "Lecture Notes in Computer Science",
+      "volume": "17130",
       "pages": "249–264",
       "publisher": "Springer Nature Switzerland",
       "year": 2027
@@ -34,21 +48,30 @@
     {
       "id": "cad-survey",
       "title": "A comprehensive survey on continual anomaly detection",
+      "doi": "10.1016/j.neucom.2026.135118",
       "kind": "journal",
-      "authors": ["F. Angiulli", "F. De Luca", "F. Fassetti"],
+      "authors": [
+        "F. Angiulli",
+        "F. De Luca",
+        "F. Fassetti"
+      ],
       "venue": "Neurocomputing",
       "volume": "707",
       "pages": "135118",
-      "doi": "10.1016/j.neucom.2026.135118",
       "year": 2027
     },
     {
       "id": "ecam",
       "title": "Attention to those tokens! Ensemble Clustering can explain Attention-based Text Classifiers",
+      "doi": "10.1145/3799682.3839930",
       "code": "https://github.com/AIDALab-DIMES/ECAM",
       "short": "CIKM 2026",
       "kind": "conference",
-      "authors": ["F. Angiulli", "F. De Luca", "F. Fassetti"],
+      "authors": [
+        "F. Angiulli",
+        "F. De Luca",
+        "F. Fassetti"
+      ],
       "venue": "ACM International Conference on Information and Knowledge Management",
       "publisher": "ACM",
       "year": 2026
@@ -56,9 +79,15 @@
     {
       "id": "llime",
       "title": "LLiMe: enhancing text classifier explanations with large language models",
+      "doi": "10.1007/s10994-025-06920-z",
       "code": "https://github.com/AIDALab-DIMES/LLiMe",
       "kind": "journal",
-      "authors": ["F. Angiulli", "F. De Luca", "F. Fassetti", "S. Nisticò"],
+      "authors": [
+        "F. Angiulli",
+        "F. De Luca",
+        "F. Fassetti",
+        "S. Nisticò"
+      ],
       "venue": "Machine Learning",
       "volume": "114",
       "issue": "12",
@@ -68,10 +97,16 @@
     {
       "id": "llm-local-explanations",
       "title": "Large Language Models-Based Local Explanations of Text Classifiers",
+      "doi": "10.1007/978-3-031-78977-9_2",
       "code": "https://github.com/AIDALab-DIMES/LLiMe",
       "short": "DS 2024",
       "kind": "conference",
-      "authors": ["F. Angiulli", "F. De Luca", "F. Fassetti", "S. Nisticò"],
+      "authors": [
+        "F. Angiulli",
+        "F. De Luca",
+        "F. Fassetti",
+        "S. Nisticò"
+      ],
       "venue": "Discovery Science",
       "series": "Lecture Notes in Computer Science",
       "pages": "19–35",

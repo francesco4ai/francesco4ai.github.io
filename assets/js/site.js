@@ -58,32 +58,4 @@
       });
     });
   }
-
-  /* Publications: copy BibTeX, or reveal it if the clipboard is unavailable. */
-  document.querySelectorAll(".pub").forEach(function (pub) {
-    var button = pub.querySelector(".pub-cite");
-    var bib = pub.querySelector(".pub-bib");
-    if (!button || !bib) return;
-    button.hidden = false;
-    button.addEventListener("click", function () {
-      var text = bib.textContent;
-      var done = function () {
-        button.textContent = "BibTeX copied";
-        button.classList.add("is-done");
-        setTimeout(function () {
-          button.textContent = "Copy BibTeX";
-          button.classList.remove("is-done");
-        }, 2000);
-      };
-      var reveal = function () {
-        bib.hidden = !bib.hidden;
-        button.textContent = bib.hidden ? "Show BibTeX" : "Hide BibTeX";
-      };
-      if (navigator.clipboard && window.isSecureContext) {
-        navigator.clipboard.writeText(text).then(done, reveal);
-      } else {
-        reveal();
-      }
-    });
-  });
 })();
