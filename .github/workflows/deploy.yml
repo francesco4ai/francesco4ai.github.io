@@ -20,10 +20,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # Job 1: sync ORCID, commit if needed, upload the Pages artifact
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -59,6 +57,16 @@ jobs:
         with:
           path: "."
 
+  # Job 2: deploy the artifact uploaded by "build".
+  # If only this job fails, use "Re-run failed jobs": it reuses the same
+  # artifact, so there is never more than one "github-pages" artifact.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
